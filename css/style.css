@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    position: sticky;
+    top:0;
+    background-color: #fff;
+}
+
+.firstthree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 42px;
+    background-color: #fff;
+    margin: 0px 20px;
+}
+.firstthree img{
+    width: 45px;
+    height: 25px;
+    border-radius: 5px;
+}
+.firstthree i{
+    padding-right: 20px;
+}
+.searchb{
+    display: flex;
+    width: 640px;
+    height: 42px;
+    margin-left: 165px;
+}
+.searchb input{
+    width: 575px;
+    height: 37px;
+    font-size: 16px;
+    padding-left: 5px;
+    margin-top: 2px;
+}
+.searchb button{
+    width: 65px;
+    height: 43px;
+}
+
+
+.fa-microphone{
+    margin-left: 10px;
+}
+
+
+.lastlogos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 224px;
+    height: 42px;
+    background-color: #fff;
+    margin-left: 80px;
+   
+}
+.lo img{
+    width: 22px;
+    height: 22px;
+}
+
+.circle img{
+    width: 30px;
+    border-radius: 14px;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+/* progress bar */
+.progress{
+    width: 0%;
+    height: 2px;
+    background-color: red;
+    animation: pro 2s ease-in-out 1ms 1 ;
+    
+}
+@keyframes pro {
+    from{width: 0%;}
+    to{width: 100%;}
+}
+/* side bar */
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 72px;
+    height: 843px;
+    overflow: hidden;
+
+}
+.subnav{
+    display: flex;
+    
+}
+.navsec{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 1190px;
+    height: 56px;
+    border-top: 1px solid rgb(180, 180, 180);
+    border-bottom: 1px solid rgb(180, 180, 180);
+    box-sizing: border-box;
+    position:sticky;
+    top: 55px;
+    background-color: #fff;
+}
+.videos{
+    width: 1190px;
+    height: 767px;
+    background-color: #dbdbdb;
+}
+.gap{
+    height: 20px;
+    background-color: #dbdbdb;
+}
+.vidbar1{
+    display: flex;
+    justify-content: space-evenly;
+    width:1190px;
+    height: 267px;
+    background-color: #dbdbdb;
+}
+.logo20{
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.viddis20{
+    display: flex;
+}
